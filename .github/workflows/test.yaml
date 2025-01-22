@@ -2,7 +2,7 @@ name: 'Required Tasks'
 on:
   pull_request:
     branches:
-      - main
+      - test-base
 
 jobs:
   task-check:
