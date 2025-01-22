@@ -9,9 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Check required tasks
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
       - name: Search for unfinished required tasks
         run: |
           exit 0
